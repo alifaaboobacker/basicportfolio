@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body{
+    font-family: "Playwrite DE Grund", cursive;
+    font-optical-sizing: auto;
+    font-weight: 120;
+    font-style: normal;
+}
+header{
+    background-color: #083782;
+    color:white;
+}
+.headings{
+    font-size:20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+nav{
+    display: flex;
+}
+.profile{
+    display: flex;
+}
+.profile-img{
+    height:125px;
+}
+.user-name{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 10px;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+  }
+nav ul li {
+    margin: 0 15px;
+  }
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    font-size:0.5rem;
+  }
+.nav-link{
+    float: right;
+    margin-left:25%;
+}
+.project-description{
+    list-style-type:circle;
+    padding-left:20px;
+}
+.project-list{
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+.project-name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
+}
+
+table {
+    width: 100%;
+    margin: 0 auto; 
+    border-collapse: separate; 
+    border-spacing: 30px; 
+    text-align: center;
+}
+
+td {
+    vertical-align: top;
+}
+
+h5 {
+    margin: 0; 
+}
+
+p {
+    margin: 5px 0;
+}
+footer {
+    background-color: #083782;;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footer-content p {
+    margin: 10px 0;
+    font-size: 12px;
+}
+
+.social-links {
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.social-links a {
+    color: #fff;
+    font-size: 15px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    color: #0077b5;
+}
+
+.social-links a:nth-child(2):hover {
+    color: #d44638; 
+}
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .profile-img {
+        height: 100px;
+    }
+
+    .user-name {
+        padding-left: 0;
+        padding-top: 10px;
+    }
+
+    .nav-link ul {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .nav-link ul li {
+        margin-bottom: 10px;
+    }
+
+    .project-description {
+        padding-left: 10px;
+    }
+
+    table {
+        width: 100%;
+        border-spacing: 10px;
+    }
+
+    footer {
+        padding: 10px 0;
+    }
+
+    .social-links a {
+        font-size: 20px;
+    }
+}
+
+
+
+
