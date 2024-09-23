@@ -1,5 +1,5 @@
 # basicportfolio
 This is the basic portfolio run portfolio.html
-https://github.com/alifaaboobacker/basicportfolio/portfolio.html
-project url https://alifaaboobacker.github.io/basicportfolio/
+
+project urlhttps://roadmap.sh/projects/portfolio-website
 https://alifaaboobacker.github.io/basicportfolio/portfolio.html
